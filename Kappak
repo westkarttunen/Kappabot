@@ -1,0 +1,11 @@
+var kappaCount = 0;
+client.on('chat', function(channel, user, message, self){
+  if(message === "Kappa")
+    {
+      kappaCount++;
+    }
+  if(message === "!kappa")
+    {
+      client.action("westkarttunen", kappaCount + " Kappa");
+    }
+})
