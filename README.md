@@ -1,0 +1,2 @@
+# Kappabot
+Kappa counter
